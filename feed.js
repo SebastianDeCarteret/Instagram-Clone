@@ -11,6 +11,7 @@ function createAndInsertNewPost() {
   objectElement.setAttribute("class", "post-box");
   objectElement.setAttribute("type", "text/html");
   objectElement.setAttribute("data", "post.html");
+  objectElement.setAttribute("title", "Instagram Post");
   document.body.insertBefore(objectElement, document.getElementById("#here"));
   console.log("created");
 }

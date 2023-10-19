@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="feed.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="random-text.js"></script>
+    <script src="random-text copy.js"></script>
   </head>
   <body>
     <post class="post-flex">
@@ -38,10 +40,17 @@
       </postFooterButtons>
       <span class="likes-count-post">500 likes</span>
       <postContent class="post-content-padding-centre">
-        Embracing the beauty of autumn in London 🍂🍁. The leaves are falling,
-        and the colors are changing, reminding us of the beauty of letting go.
-        Here's to new beginnings!
-        <strong>#AutumnVibes #LondonLife</strong>
+        <span id="rand-text"></span>
+        <script>
+          document.querySelector("#rand-text").innerHTML = randomText(
+            //prettier-ignore
+            (Math.floor(Math.random() * 10)) + 5
+          );
+        </script>
+        <strong id="rand-hash">#</strong>
+        <script>
+          document.querySelector("#rand-hash").innerHTML = randomText2(1);
+        </script>
       </postContent>
     </post>
   </body>
