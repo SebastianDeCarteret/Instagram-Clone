@@ -7,7 +7,7 @@ logInButton.addEventListener("click", () => {
   if (emailField.value != "" && passwordField.value != "") {
     errorMessageText.classList.remove("red-error");
     errorMessageText.innerHTML = "";
-    console.log("password and email are ok");
+    location.replace("./feed.html");
   } else {
     errorMessageText.innerHTML = "Please Check Your Details";
     errorMessageText.classList.add("red-error");

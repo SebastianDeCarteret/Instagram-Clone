@@ -4,12 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="feed.css" />
     <title>Multigram</title>
   </head>
-  <body>
-    <h1>Feed Page</h1>
-
-    <script src="script.js"></script>
+  <body class="main-style-flex">
+    <header class="header-flex">
+      <img
+        id="header-logo"
+        class="header-logo"
+        src="images/instagram-logo.jpg"
+        alt="Instagram logo"
+      />
+      <span class="icons-flex">
+        <img class="header-icon" src="images/plus.png" alt="Add Icon" />
+        <img class="header-icon" src="images/heart.png" alt="Heart Icon" />
+      </span>
+    </header>
+    <span id="here"></span>
+    <object class="post-box" type="text/html" data="post.html"></object>
+    <object class="post-box" type="text/html" data="post.html"></object>
+    <span class="load-more-box"></span>
+    <script src="feed.js"></script>
   </body>
 </html>

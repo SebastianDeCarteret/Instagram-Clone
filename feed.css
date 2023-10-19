@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Grotesk;
+  src: url("fonts/HankenGrotesk-Light.ttf");
+}
+
+.main-style-flex {
+  font-family: "Grotesk";
+  display: flex;
+  flex-direction: column;
+}
+
+.header-logo {
+  width: 150px;
+  padding: 5px;
+}
+
+.header-icon {
+  width: 30px;
+  height: 30px;
+  padding: 0px 10px 0px 0px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  margin-bottom: 15px;
+}
+
+.icons-flex {
+  display: flex;
+}
+
+.post-flex-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.verified-badge {
+  width: 15px;
+  height: 15px;
+  padding: 15px;
+  padding-left: 0px;
+}
+
+.profile-picture {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.name-padding {
+  padding: 15px 5px 15px 5px;
+}
+
+.name-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.options {
+  padding: 10px;
+}
+
+.post-flex {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.post-content-padding {
+  padding: 5px 0px 1px 0px;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.post-button-size {
+  width: 25px;
+  height: 25px;
+  padding: 8px;
+}
+
+.post-buttons-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes-count-post {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  padding-top: 0px;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.post-content-padding-centre {
+  padding: 5px;
+}
+
+.post-box {
+  height: 740px;
+}
